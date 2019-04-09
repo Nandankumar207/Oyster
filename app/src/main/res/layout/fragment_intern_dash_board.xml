@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.InternDashBoardFragment">
+
+   <android.support.constraint.ConstraintLayout
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:background="@drawable/image_background"
+       tools:layout_editor_absoluteX="39dp"
+       tools:layout_editor_absoluteY="66dp">
+
+
+      <ImageView
+          android:id="@+id/imageView4"
+          android:layout_width="20dp"
+          android:layout_height="0dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/yatra_logo_new"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="1.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="1.0" />
+   </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
